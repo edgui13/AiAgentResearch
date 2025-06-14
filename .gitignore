@@ -20,4 +20,8 @@ GITCOMMANDS.md
 # Distribution / packaging
 dist/
 build/
-*.egg-info/ 
+*.egg-info/
+
+# macOS
+.DS_Store
+**/.DS_Store 
