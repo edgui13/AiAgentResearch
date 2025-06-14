@@ -1,8 +1,8 @@
-# PythonAIAgentFromScratch
+# AIAgentResearch
 
 An AI-powered research assistant that combines web search and Wikipedia to gather, structure, and save information on any topic.
 
-Quick Start ----------------------------------------------------------------------------------------------
+Quick Start ----------------------------
 
 1. Prerequisites
 
@@ -11,30 +11,27 @@ Quick Start --------------------------------------------------------------------
    - You need to register your CC or debit card with Antrhopic or OpenAI before you cna use the AI Agent
 
 2. Setup
-
-   # Create and activate virtual environment
+   a. Create and activate virtual environment
 
    - python3 -m venv venv
    - source venv/bin/activate # On Windows use: venv\Scripts\activate
 
-   # Install dependencies
+   b. Install dependencies
 
    - pip install -r requirements.txt
 
-   # Set up your API key
+   c. Set up your API key
 
-   # Create a .env file and add your API key:
+   d. Create a .env file and add your API key:
 
-   # ANTHROPIC_API_KEY="your_key_here"
-
-   # or
-
-   # OPENAI_API_KEY="your_key_here"
+   - ANTHROPIC_API_KEY="your_key_here"
+     or
+   - OPENAI_API_KEY="your_key_here"
 
 3. Run the Agent
-   python main.py
+   - python main.py
 
-How It Works ----------------------------------------------------------------------------------------------
+How It Works ------------------------------------
 System Architecture:
 
 The system consists of three main components:
